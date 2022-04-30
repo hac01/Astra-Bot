@@ -70,6 +70,14 @@ async def amass(ctx,arg):
     output = os_level_command_for_amass.read()
     await ctx.send("Your result:- \n")
     await ctx.send(file=discord.File("amass_result.txt.txt"))
+    
+@bot.command()
+async def subfinder(ctx,arg):
+    os_level_command_for_subfinder=os.popen("subfinder -d "+arg+" -o subfinder.txt")
+    output = os_level_command_for_subfinder.read()
+    await ctx.send("Your result:- \n")
+    await ctx.send(file=discord.File("subfinder.txt"))
+    
 
 #@bot.command()
 #async def amass(ctx,arg):
