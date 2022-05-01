@@ -7,6 +7,20 @@ Why to use this bot?
 Ans: if u are traveling and u dont have laptop or pc but u want to hack and u have phone u can do with this bot 
 ``` 
 
+
+## Installation
+```git clone https://github.com/hac01/Astra-Bot.git & cd Astra-Bot ```
+
+```pip install -r requirements.txt ```
+
+```chmod +x setup.sh```
+
+```./setup.sh```
+
+
+
+
+
 ## Usage
 Command     |Example                | Description
 ------------|-----------------------|--------------
