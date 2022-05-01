@@ -9,7 +9,7 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 
 
 ## Installation
-```git clone https://github.com/hac01/Astra-Bot.git & cd Astra-Bot ```
+```git clone https://github.com/hac01/Astra-Bot.git && cd Astra-Bot ```
 
 ```pip install -r requirements.txt ```
 
