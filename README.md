@@ -18,6 +18,10 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 ```./setup.sh```
 
 
+**Now You need to add Token in .env file
+
+
+
 
 
 
