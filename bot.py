@@ -34,8 +34,14 @@ async def help(ctx):
         value='The OWASP Amass Project performs network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques. For ex !amass example.com',
         inline=False
     )
+    embed.add_field(
+        name='!subfinder',
+        value='Subfinder is a subdomain discovery tool that discovers valid subdomains for websites by using passive online source for ex. !subfinder target.com',
+        inline=False
+    )
 
     await ctx.send(embed=embed)
+
     
 # https://www.youtube.com/watch?v=XzcJ4p0R6NY&t=8s used for making help noice
 
