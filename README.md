@@ -33,3 +33,7 @@ Command     |Example                | Description
 !amass      | !amass target.com     |The OWASP Amass Project performs external asset discovery https://github.com/OWASP/Amass
 !subfinder  |!subfinder target.com  |Subfinder is a subdomain discovery tool https://github.com/projectdiscovery/subfinder 
 
+# Exmaple
+Nmap example !nmap target.com
+![url](https://github.com/hac01/Astra-Bot/blob/main/nmap_astra_bot.png)
+
