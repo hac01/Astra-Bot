@@ -1,16 +1,23 @@
-from ast import arg
-from http import client
+#from ast import arg
+#from asyncore import file_dispatcher
+#from http import client
+#from unicodedata import name
 #from turtle import color
 #from turtle import title
 #from subprocess import _TXT
+from tokenize import Token
 from discord.ext import commands
 import os 
 import discord
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 bot=commands.Bot(command_prefix='!')
 
 #use !help
+
 
 
 #hackers ignore this because this is modified version of help
@@ -41,7 +48,6 @@ async def help(ctx):
     )
 
     await ctx.send(embed=embed)
-
     
 # https://www.youtube.com/watch?v=XzcJ4p0R6NY&t=8s used for making help noice
 
@@ -76,7 +82,7 @@ async def amass(ctx,arg):
     output = os_level_command_for_amass.read()
     await ctx.send("Your result:- \n")
     await ctx.send(file=discord.File("amass_result.txt.txt"))
-    
+
 @bot.command()
 async def subfinder(ctx,arg):
     os_level_command_for_subfinder=os.popen("subfinder -d "+arg+" -o subfinder.txt")
@@ -84,8 +90,7 @@ async def subfinder(ctx,arg):
     await ctx.send("Your result:- \n")
     await ctx.send(file=discord.File("subfinder.txt"))
     
-
 #@bot.command()
 #async def amass(ctx,arg):
 
-bot.run('TOKEN')
+bot.run(os.getenv('TOKEN'))
