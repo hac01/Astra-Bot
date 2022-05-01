@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "It may take some time to complete"
 sudo apt update
 sudo apt install nmap
 sudo apt install golang-go
