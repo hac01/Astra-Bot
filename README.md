@@ -34,6 +34,12 @@ Command     |Example                | Description
 !subfinder  |!subfinder target.com  |Subfinder is a subdomain discovery tool https://github.com/projectdiscovery/subfinder 
 
 # Exmaple
+Help command !help
+
+
+![url](https://github.com/hac01/Astra-Bot/blob/main/img/astra_bot_help_command.png)
+
 Nmap example !nmap target.com
-![url](https://github.com/hac01/Astra-Bot/blob/main/nmap_astra_bot.png)
+
+![url](https://github.com/hac01/Astra-Bot/blob/main/img/nmap_astra_bot.png)
 
