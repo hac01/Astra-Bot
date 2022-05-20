@@ -89,6 +89,15 @@ async def subfinder(ctx,arg):
     output = os_level_command_for_subfinder.read()
     await ctx.send("Your result:- \n")
     await ctx.send(file=discord.File("subfinder.txt"))
+   
+@bot.command()
+async def superscript(ctx,arg):
+    #if u want to use this then uncomment
+    #os_level_command_for_superscript=os.popen("./super.sh "+arg+"")
+    #output=os_level_command_for_superscript.read()
+    await ctx.send("I am still working on this feature ")
+   # await ctx.send("Your result:- \n")
+    #await ctx.send(file=discord.File("subdomains.txt"))
     
 #@bot.command()
 #async def amass(ctx,arg):
