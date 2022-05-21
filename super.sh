@@ -15,4 +15,4 @@ cd ../
 wget https://raw.githubusercontent.com/shriyanss/hackers-one-command/main/utils/replace.py
 python3 replace.py > hosts.txt
 nmap -v -iL hosts.txt -oN nmap.txt
-nikto -url $2 -ask no -Cgidirs all -o nikto.txt -Tuning 1,2,3,4,5,6,7,8,9,0,a,b,c,d,e,x -timeout 30
+#nikto -url $2 -ask no -Cgidirs all -o nikto.txt -Tuning 1,2,3,4,5,6,7,8,9,0,a,b,c,d,e,x -timeout 30
