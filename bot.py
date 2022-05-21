@@ -93,11 +93,23 @@ async def subfinder(ctx,arg):
 @bot.command()
 async def superscript(ctx,arg):
     #if u want to use this then uncomment
-    #os_level_command_for_superscript=os.popen("./super.sh "+arg+"")
-    #output=os_level_command_for_superscript.read()
+    os_level_command_for_superscript=os.popen("./super.sh "+arg+"")
+    output=os_level_command_for_superscript.read()
     await ctx.send("I am still working on this feature ")
-   # await ctx.send("Your result:- \n")
-    #await ctx.send(file=discord.File("subdomains.txt"))
+    await ctx.send("Your result:- \n")
+    await ctx.send("Here comes the subdomains file")
+    await ctx.send(file=discord.File("subdomains.txt"))
+    await ctx.send("Here comes waybackurls file")
+    await ctx.send(file=discord.File("waybackurls.txt"))
+    await ctx.send("Your httpx file ")
+    await ctx.send(file=discord.File("httpx.txt"))
+    await ctx.send(file=discord.File("ip.txt"))
+    await ctx.send(file=discord.File("nmap.txt"))
+    
+   # await ctx.send(file=discord.File("nmap.txt"))
+#send hosts.txt , subdomains.txt , waybackurls.txt , nmap.txt , httpx.txt
+
+
     
 #@bot.command()
 #async def amass(ctx,arg):
