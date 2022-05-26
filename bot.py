@@ -65,11 +65,13 @@ async def nmap(ctx,arg):
     '''
     Used for port scanning just type !nmap with ip address which u want for ex !nmap 127.0.0.1
     '''
-    os_level_command_for_nmap = os.popen("nmap -sV "+arg+" -oN nmap.txt")
-    output = os_level_command_for_nmap.read()
-    await ctx.send("Your result:- \n")
-    await ctx.send(file=discord.File("nmap.txt"))
+    #os_level_command_for_nmap = os.popen("nmap -sV "+arg+" -oN prety.txt")
+    os_level_command_for_nmap = subprocess.run(["nmap","-sV","-oN","nmap.txt",f"{arg}"],capture_output=True)
 
+   # output = os_level_command_for_nmap.read()
+    await ctx.send("Your result:- \n")
+    await ctx.send(file=discord.File("prety.txt"))
+#thanks vikran 
 
 @bot.command()
 async def amass(ctx,arg):
