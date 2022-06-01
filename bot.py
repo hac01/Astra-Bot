@@ -80,10 +80,11 @@ async def amass(ctx,arg):
     For ex : !amass example.com
  
     '''
-    os_level_command_for_amass=os.popen("amass enum -v -src -ip -brute -min-for-recursive 2 -share -d "+arg+" -oA amass_result.txt" )
-    output = os_level_command_for_amass.read()
+    #os_level_command_for_amass=os.popen("amass enum -v -src -ip -brute -min-for-recursive 2 -share -d "+arg+" -oA amass_result.txt" )
+    os_level_command_for_amass=subprocess.run(["amass","enum","-v","-src","-ip","-brute","-min-for-recursive","2","-share","-d",f"{arg}","-oA","amass_result.txt"],capture_output=True)
+    #output = os_level_command_for_amass.read()
     await ctx.send("Your result:- \n")
-    await ctx.send(file=discord.File("amass_result.txt.txt"))
+    await ctx.send(file=discord.File("amass_result.txt.txt")
 
 @bot.command()
 async def subfinder(ctx,arg):
