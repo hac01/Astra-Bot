@@ -28,6 +28,9 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 ```Step 3 : Click on  New application ```
 ![url](https://github.com/hac01/Astra-Bot/blob/main/img/new_app_discord_github_astra_bot_readme.jpg)
 
+```Step 4 : Give Any name and press Create ```
+![image](https://user-images.githubusercontent.com/70646122/173553851-ff2dba94-050c-45af-863d-0a4a5b4a4e46.png)
+
 
 ## Usage
 Command     |Example                | Description
