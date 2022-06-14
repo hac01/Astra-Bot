@@ -18,7 +18,7 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 ```./setup.sh```
 
 
-**Now You need to add Token in .env file
+**Now You need to add Token in .env file**
 
 ## Getting Discord Bot acccount 
 ```Step 1 : Login in to your Discord ```
@@ -35,7 +35,7 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 ![url](https://github.com/hac01/Astra-Bot/blob/main/img/bot_astra_create_github.jpg)
 ```Step 6 : Now Navigate to Oath2 then general then click on client Secret ``` 
 ![url](https://github.com/hac01/Astra-Bot/blob/main/img/oath2_secret_discord_astra_doc.jpg)
-**Don't share Client secret with anyone 
+**Note:Don't share Client secret with anyone**
 
 ## Usage
 Command     |Example                | Description
