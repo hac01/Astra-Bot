@@ -31,6 +31,9 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 ```Step 4 : Give Any name and press Create ```
 ![image](https://user-images.githubusercontent.com/70646122/173553851-ff2dba94-050c-45af-863d-0a4a5b4a4e46.png)
 
+```Step 5 : Navigate to bot and click create bot ```
+![url](https://github.com/hac01/Astra-Bot/blob/main/img/bot_astra_create_github.jpg)
+
 
 ## Usage
 Command     |Example                | Description
