@@ -26,7 +26,7 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 ```Step 2 :  Navigate to https://discord.com/developers/applications ```
 
 ```Step 3 : Click on  New application ```
-
+![url](https://github.com/hac01/Astra-Bot/blob/main/img/new_app_discord_github_astra_bot_readme.jpg)
 
 
 ## Usage
