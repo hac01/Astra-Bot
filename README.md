@@ -33,7 +33,9 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 
 ```Step 5 : Navigate to bot and click create bot ```
 ![url](https://github.com/hac01/Astra-Bot/blob/main/img/bot_astra_create_github.jpg)
-
+```Step 6 : Now Navigate to Oath2 then general then click on client Secret ``` 
+![url](https://github.com/hac01/Astra-Bot/blob/main/img/oath2_secret_discord_astra_doc.jpg)
+**Don't share Client secret with anyone 
 
 ## Usage
 Command     |Example                | Description
