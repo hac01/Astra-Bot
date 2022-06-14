@@ -37,6 +37,8 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 ![url](https://github.com/hac01/Astra-Bot/blob/main/img/oath2_secret_discord_astra_doc.jpg)
 **Note: Don't share Client secret with anyone**
 
+**Note: Copy the Client secret and add it into .env file**
+
 # Now we need to invite bot to our discord server
 
 ```Step 1 : Navigate to Oath2 then Url Genrator ```
