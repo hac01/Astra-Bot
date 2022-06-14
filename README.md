@@ -35,7 +35,19 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 ![url](https://github.com/hac01/Astra-Bot/blob/main/img/bot_astra_create_github.jpg)
 ```Step 6 : Now Navigate to Oath2 then general then click on client Secret ``` 
 ![url](https://github.com/hac01/Astra-Bot/blob/main/img/oath2_secret_discord_astra_doc.jpg)
-**Note:Don't share Client secret with anyone**
+**Note: Don't share Client secret with anyone**
+
+# Now we need to invite bot to our discord server
+
+```Step 1 : Navigate to Oath2 then Url Genrator ```
+
+```Step 2 : Select "bot" option ```
+
+![image](https://user-images.githubusercontent.com/70646122/173557366-d274e04c-e9b9-44f7-8cb4-1cb38c956d0d.png)
+
+```Step 3 : Scroll Down and copy the url  ```
+
+```Step 4 : Now Paste the url in new tab then you need to select the discord server where you want to add the bot ```
 
 ## Usage
 Command     |Example                | Description
