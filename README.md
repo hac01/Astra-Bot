@@ -20,8 +20,12 @@ Ans: if u are traveling and u dont have laptop or pc but u want to hack and u ha
 
 **Now You need to add Token in .env file
 
+## Getting Discord Bot acccount 
+```Step 1 : Login in to your Discord ```
 
+```Step 2 :  Navigate to https://discord.com/developers/applications ```
 
+```Step 3 : Click on  New application ```
 
 
 
