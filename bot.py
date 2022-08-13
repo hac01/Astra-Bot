@@ -4,7 +4,7 @@
 #from unicodedata import name
 #from turtle import color
 #from turtle import title
-#from subprocess import _TXT
+import subprocess
 #from tokenize import Token
 from discord.ext import commands
 import os 
@@ -65,8 +65,8 @@ async def nmap(ctx,arg):
     '''
     Used for port scanning just type !nmap with ip address which u want for ex !nmap 127.0.0.1
     '''
-    #os_level_command_for_nmap = os.popen("nmap -sV "+arg+" -oN prety.txt")
-    os_level_command_for_nmap = subprocess.run(["nmap","-sV","-oN","nmap.txt",f"{arg}"],capture_output=True)
+    os_level_command_for_nmap = os.popen("nmap -sV "+arg+" -oN prety.txt")
+    #os_level_command_for_nmap = subprocess.run(["nmap","-sV","-oN","nmap.txt",f"{arg}"],capture_output=True)
 
    # output = os_level_command_for_nmap.read()
     await ctx.send("Your result:- \n")
