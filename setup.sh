@@ -22,7 +22,7 @@ then
 	pip install -r requirements.txt
 
 else
-	echo -e "${RED} This script is tested on Ubuntu 22.04 LTS u may face some error . if u still want to continue press y ${ENDCOLOR}"
+	echo -e "${RED} This script is tested on Ubuntu 22.04 LTS . You may face problem in other distro's . If U want to continue type y .  ${ENDCOLOR}"
  	read a
 fi
 
